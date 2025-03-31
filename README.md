@@ -10,6 +10,7 @@ When the user types in an invalid Stock Symbol Name then it will run an error me
 
 
 A simple display of all the current data on stocks when the user types in a valid Stock Symbol. A nice and easy way for investors to constantly be up to date with the market! 
+![image](https://github.com/user-attachments/assets/22a99896-b40a-4170-b4a5-e15a01f770f1)
 
 
 
