@@ -15,9 +15,10 @@ A simple display of all the current data on stocks when the user types in a vali
 I've added an AI Agent chatbot from Jotform AI into the website for users to interact with to get help in stock market information and decision-making in the bottom right.
 Also makes this website feel more like a personal dashboard that feels more home. 
 ![image](https://github.com/user-attachments/assets/d779b91a-e837-4b91-a95f-9fe058d6efda)
+![image](https://github.com/user-attachments/assets/55f905ee-70e5-4780-a848-49a232b6b599)
 
-*Note, the AI chatbot still requires a lot more work. Very ineffective as of now in retrieving proper stock information and advising users, would likely require a change in AI model on Jotform
-or training the AI bot. 
+
+*Note, AI chatbot model from Jotform still requires more training for effective use. 
 
 
 
