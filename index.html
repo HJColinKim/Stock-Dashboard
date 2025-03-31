@@ -8,19 +8,19 @@
 </head>
 <body>
     <div class="container">
-        <h2>:Stock Market Dashboard:</h2>
+        <h2>|Stock Market Dashboard|</h2>
         <div class="input-group">
             <input type="text" id="stockSymbol" placeholder="Enter Stock Name">
             <button onclick="fetchStockData()">Retrieve Stock Data</button>
         </div>
 
         <div class="company-info">
-            <p class="company-name" id="companyName">-</p>
+            <p class="company-name" id="companyName"></p>
             <p class="stock-price-info">
-                <span class="stock-price" id="stockPrice">-</span>
-                <span class="stock-change" id="stockChange">-</span>  
+                <span class="stock-price" id="stockPrice"></span>
+                <span class="stock-change" id="stockChange"></span>  
             </p>
-            <p class="company-description" id="companyDescription">-</p>
+            <p class="company-description" id="companyDescription"></p>
         </div>
 
         <div class="table">
@@ -58,6 +58,33 @@
     <div id="toast1" class="toast1">Invalid Stock Symbol or API Limit Exceeded</div>
 
     <div id="toast2" class="toast2">Error fetching stock data, please try again later!</div>
+
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-embedded-agent.js'></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    window.AgentInitializer.init({
+      agentRenderURL: "https://agent.jotform.com/0195ec61c33874f1a8db08ff61662edb9aad",
+      rootId: "JotformAgent-0195ec61c33874f1a8db08ff61662edb9aad",
+      formID: "0195ec61c33874f1a8db08ff61662edb9aad",
+      queryParams: ["skipWelcome=1", "maximizable=1"],
+      domain: "https://www.jotform.com",
+      isDraggable: false,
+      background: "linear-gradient(180deg, #6C73A8 0%, #6C73A8 100%)",
+      buttonBackgroundColor: "#0066C3",
+      buttonIconColor: "#FFFFFF",
+      variant: false,
+      customizations: {
+        "greeting": "Yes",
+        "greetingMessage": "Hi, how can I help in your journey with the Stock Market?",
+        "openByDefault": "No",
+        "pulse": "Yes",
+        "position": "right",
+        "autoOpenChatIn": "0"
+      },
+      isVoice: undefined
+    });
+  });
+</script>
 
     
     <script src="script.js"></script>

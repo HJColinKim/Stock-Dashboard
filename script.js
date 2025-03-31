@@ -1,7 +1,7 @@
 'use strict';
 
 //project
-const apiKey = "HCNQM1ECT1EYHQ0Z";
+const apiKey = "IMBHIOYIMKWMYE3S";
 const apiUrl = "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=";
 const overviewUrl = "https://www.alphavantage.co/query?function=OVERVIEW&symbol=";
 const timeSeriesUrl = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol="
