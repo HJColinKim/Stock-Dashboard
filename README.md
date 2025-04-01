@@ -5,7 +5,6 @@ A dashboard that stock investors can use to find out details and information abo
 
 The UI needs more work, but at the moment it's enough for basic functionality. 
 
-![image](https://github.com/user-attachments/assets/e588d285-5221-4915-9219-e1d521954307)
 When the user types in an invalid Stock Symbol Name then it will run an error message through a Toast Popup instead of an alert message.
 
 
